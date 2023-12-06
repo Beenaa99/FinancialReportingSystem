@@ -1,0 +1,46 @@
+body{
+font-family: 'Courier New', Courier, monospace;
+}
+
+.main-content-container {
+    text-align: center;
+    padding: 4rem 1rem;
+    height: 80vh;
+
+  }
+  
+  .main-heading {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-size: 6rem;
+    color: #333;
+  }
+  
+  .sub-heading {
+    padding-left: 29rem;
+    padding-right: 29rem;
+    font-size: 1.5rem;
+    color: #666;
+    font-weight: 300;
+  } 
+  
+  .button {
+    
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-primary {
+    background:  #2969e0 !important;/* Transparent background */
+    color:white;
+    padding: 1rem;
+    font-size: large;
+    margin: 3rem;
+  }
+  
+  .button-secondary {
+    background-color: gray;
+    color: white;
+  }
+  

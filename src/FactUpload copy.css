@@ -1,0 +1,107 @@
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    background-color: whitesmoke;
+    height: 50vh;
+    width: 70vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: black;
+    align-items: center;
+    
+}
+
+.fact-container {
+    text-align: center;
+    background: rgb(41,105,244);
+    background: linear-gradient(166deg, rgba(41,105,244,1) 12%, rgba(130,92,249,1) 57%, rgba(154,123,249,1) 83%);
+    height: 80vh;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.custom-file-upload, button {
+    padding: 12px 28px;
+    margin: 10px; /* Space between elements */
+    border-radius: 4px;
+    background:  #5861ff; /* Transparent background */
+    color: white; /* Blue text color */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.custom-file-upload:hover, .upload-button:hover, .next-button-container button:hover {
+
+    background: #5861ff; /* Blue background for hover */
+    color: white; /* White text color for hover */
+}
+.upload-button{
+    font-size: x-large;
+}
+/* Custom styling for file input button */
+.custom-file-upload {
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-file-upload::before {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 30px; /* Center text vertically */
+    padding-left: 30px; /* Align text from the left */
+    color: #5861ff; /* Blue text color */
+}
+
+input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 200px;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+progress {
+    width: 200px; /* Same width as button and file input */
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 20px 0;
+    border: 2px solid #5861ff; /* Blue border for progress bar */
+}
+
+progress::-webkit-progress-bar {
+    background-color: transparent; /* Transparent background */
+}
+
+progress::-webkit-progress-value {
+    background-color: #5861ff; /* Blue progress value */
+}
+
+progress::-moz-progress-bar {
+    background-color: #5861ff; /* Blue progress value for Firefox */
+}
+
+/* Center the 'Next' button */
+.next-button-container {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 20rem;
+    color: antiquewhite;
+}
+
+h4 {
+    
+}

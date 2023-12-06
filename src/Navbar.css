@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 10vh;
+    /* background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 48%, rgb(218, 230, 249) 100%); */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #000;
+    padding: 1rem 1.5rem 1rem 1.5rem; /* Assuming a dark logo text */
+    border-color: #2969e0;
+    border-style: double;
+    border-style: groove;
+    margin-left: 2rem;
+  }
+  
+  .nav-items a,
+  .button {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000; /* Assuming dark text for links */
+  }
+  
+  .button {
+    padding: 1rem 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  
+  
+  .button-secondary {
+    background-color: #2969e0;
+    color: white;
+  }
+  

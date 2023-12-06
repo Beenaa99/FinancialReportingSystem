@@ -1,0 +1,92 @@
+
+div{
+    font-family: 'Roboto', 'Courier Prime';
+}
+.container{
+    height: 200vh;
+    padding-top: 6rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(166deg, rgba(255,255,255,1) 9%, rgba(228,241,252,1) 75%, rgba(213,216,236,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.dimensions{
+    justify-content: center;
+}
+
+.dimensions {
+    display: flex;
+    gap: 20px; /* Space between the child containers */
+    flex-wrap: wrap;
+    padding: 40px; /* Padding around the main container */
+    height: 80vh;
+  }
+
+    .file-upload-container {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    align-items: center;
+    box-shadow: #5861ff;
+    width: 100vh;
+    padding-bottom: 3rem;
+    
+} 
+
+.button-div{
+    padding-bottom: 1rem;
+}
+
+.custom-file-upload, button {
+    padding: 12px 28px;
+    margin: 10px; /* Space between elements */
+    border-radius: 4px;
+    border: #5861ff 2px;/* Transparent background */
+    color: white; /* Blue text color */
+    cursor: pointer;
+    
+}
+
+
+.upload-button{
+    font-size: x-large;
+}
+/* Custom styling for file input button */
+.custom-file-upload {
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-file-upload::before {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 30px; /* Center text vertically */
+    padding-left: 30px; /* Align text from the left */
+    border: #5861ff 1px; /* Blue text color */
+}
+
+input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 200px;
+    min-height: 100%;
+    cursor: pointer;
+}
+.metric-button{
+    background-color: rgb(2, 33, 2);
+    font-size: x-large;
+    color: white 
+}
+Link{
+    text-decoration: none !important;
+}
+

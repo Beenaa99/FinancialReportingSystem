@@ -1,0 +1,57 @@
+.footer {
+    width: 100%;
+    background-color: #fff; /* Change as per your color scheme */
+    padding: 40px 40px 60px 40px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Adds a subtle top shadow to the footer */
+    font-size: 1.2rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px; /* Adjust as per your layout */
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 10px;
+   
+
+  }
+  
+  .footer-sections {
+    display: flex;
+    
+  }
+  
+  .footer-link {
+    /* Adjust the spacing between links */
+    color: #000; /* Change as per your color scheme */
+    text-decoration: none;
+    
+  }
+  
+  .footer-social {
+    display: flex;
+  }
+  
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px; /* Adjust the spacing from the content above */
+    color: #000; /* Change as per your color scheme */
+    font-size: medium;
+  }
+  
+  /* Add media queries to make footer responsive */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+    
+    .footer-sections,
+    .footer-social {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  }
+  
